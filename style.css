@@ -34,10 +34,7 @@ html {
   background-color: #FEC0CD;
 }
 
-.bg {
-  pointer-events: none;
-}
-
+/* biarkan interaktif */
 .slides {
   position: relative;
   z-index: 10;
@@ -261,3 +258,4 @@ body {
     width: 180px;
   }
 }
+
