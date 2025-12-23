@@ -23,26 +23,20 @@ html {
 }
 
 .bg {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-
+  /* Location of the image */
   background-image: url(./img/background3.jpg);
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
   background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
   background-color: #FEC0CD;
-}
-
-/* biarkan interaktif */
-.slides {
-  position: relative;
-  z-index: 10;
-}
-
-#slideEmpat {
-  position: relative;
-  z-index: 20;
+  height: 100%;
 }
 
 .img {
@@ -258,5 +252,6 @@ body {
     width: 180px;
   }
 }
+
 
 
